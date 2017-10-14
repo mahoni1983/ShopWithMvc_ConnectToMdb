@@ -11,7 +11,7 @@ import java.sql.DriverManager;
 public class DBase {
 	String CONNECTION_STRING =
 
-			"jdbc:ucanaccess://C:/Users/Eugene/Desktop/db1.mdb";
+			"jdbc:ucanaccess://db1.mdb";
 	String USER = "root";
 	String PASS = "root";
 	private static DBase instance = null;
